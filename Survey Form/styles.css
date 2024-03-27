@@ -8,7 +8,7 @@ body{
 
 #main{
     width: 60vh;
-    height: 90vh;
+    height: 100vh;
     max-width: 500px;
     min-width: 300px;
     background-color: #eaeaea;
@@ -30,6 +30,13 @@ label {
     display: block;
     margin: 0.5rem 0;
     color: #4a1942;
+  }
+
+  .basic-info{
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
   }
 
   input[type="submit"]{
