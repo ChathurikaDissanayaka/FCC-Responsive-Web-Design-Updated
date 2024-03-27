@@ -1,69 +1,65 @@
-body{
-    margin: 0;
-    padding: 0;
-    color: #252422;
-    text-shadow: 0 0 10px #0a0908;
-    background-image: url("images/bg4.jpg");
-    background-size: cover;
-    background-position: center;
-    font-family: Tahoma;
-    /* width: 100%; */
-    /* background-color: #893168; */
+body {
+  margin: 0;
+  padding: 0;
+  color: #252422;
+  text-shadow: 0 0 1px white;
+  background-image: url("images/bg5.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-#main{
-    width: 60vh;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 10px auto;
-    padding: 1px 20px 40px 20px;
-    /* border-radius: 5px; */
-    /* height: 100vh; */
-    /* background-color: #eaeaea; */
+#main {
+  width: 60vh;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 10px auto;
+  padding: 1px 20px 40px 20px;
+  /* background-color: #eaeaea; */
 }
 
 h1,
 p {
   margin: 1em auto;
   text-align: center;
-  /* color: #050404; */
-  /* color: #2e1c2b;  */
-  /* color: #4a1942; */
-  /* color: #a9def9; */
 }
 
-fieldset{
+fieldset {
   border: none;
 }
 
 label {
-    display: block;
-    margin: 0.5rem 0;
-    color: #4a1942;
-  }
+  display: block;
+  margin: 0.5rem 0;
+  color: #252422;
+}
 
-  .basic-info{
-    width: 95%;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 10px;
-  }
+.basic-info {
+  width: 95%;
+  border: none;
+  padding: 10px 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #403d39;
+}
 
-  input[type="submit"]{
-    background-color: #4a1942;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 0;
-    color: #fafaff;
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-  }
+textarea {
+  border: none;
+  width: 95%;
+  padding: 10px 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #403d39;
+}
 
-  input[type="radio"]{
-    /* color: #4a1942; */
-  }
+input[type="submit"] {
+  background-color: #252422;
+  border: none;
+  padding: 10px 0;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  width: 94%;
+}
 
-  input[type="submit"]:hover{
-    background-color: #893168;
-  }
+input[type="submit"]:hover {
+  background-color: #403d39;
+}
